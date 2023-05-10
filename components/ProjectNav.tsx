@@ -1,30 +1,22 @@
 "use client"
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 import Image from "next/image"
+import Link from "next/link"
 
 interface NavItem {
   label: string
-  page: string
+  sectionName: string
 }
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Home",
-    page: "home",
-  },
-  {
-    label: "About",
-    page: "about",
-  },
-  {
-    label: "Projects",
-    page: "projects",
+    label: "Return Home",
+    sectionName: "projects",
   },
 ]
 
@@ -33,12 +25,13 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-darkblack dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <Link href="/">
               <div className="container flex items-center space-x-2">
               {currentTheme === "dark" ? (
                 <Image
@@ -78,16 +71,10 @@ export default function Navbar() {
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
-                    key={idx}
-                    to={item.page}
+                    href={`/#${item.sectionName}`}
                     className={
                       "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
                     onClick={() => setNavbar(!navbar)
                     }
                   >

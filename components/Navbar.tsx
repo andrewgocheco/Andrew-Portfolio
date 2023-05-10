@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
+import { Link as ScrollLink } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -38,7 +38,7 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <ScrollLink to="home">
               <div className="container flex items-center space-x-2">
               {currentTheme === "dark" ? (
                 <Image
@@ -56,7 +56,7 @@ export default function Navbar() {
                 />
               )}
               </div>
-            </Link>
+            </ScrollLink>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -77,7 +77,7 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-Satoshi">
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <Link
+                  <ScrollLink
                     key={idx}
                     to={item.page}
                     className={
@@ -92,7 +92,7 @@ export default function Navbar() {
                     }
                   >
                     {item.label}
-                  </Link>
+                  </ScrollLink>
                 )
               })}
               {currentTheme === "dark" ? (

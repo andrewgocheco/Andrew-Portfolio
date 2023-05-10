@@ -1,6 +1,5 @@
 "use client"
 import ProjectNav from "@/components/ProjectNav"
-import Footer from "@/components/Footer"
 import { ThemeProvider } from "next-themes"
 
 export default function ProjectLayout({

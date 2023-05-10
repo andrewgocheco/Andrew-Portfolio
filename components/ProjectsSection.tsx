@@ -10,15 +10,15 @@ const projects = [
     description:
       "Helping you find local deals and recipes!",
     location: "/ HackPrinceton /",
-    image: "/sustainabite.png",
-    link: "../projects/sustainabite#top",
+    image: "/project-3.png",
+    link: "../projects/sustainabite",
   },
   {
     name: "Notetaker",
     description:"Turn video lectures into summaries and transcripts",
     location: "/ Hack the North /", 
     image: "/project-1.png",
-    link: "../projects/notetaker#top",
+    link: "../projects/notetaker",
   },
   {
     name: "Travel Green",
@@ -26,7 +26,7 @@ const projects = [
       "How much carbon are you releasing?",
     location: "/ TOHacks /",
     image: "/project-2.png",
-    link: "../projects/travelgreen#top",
+    link: "../projects/travelgreen",
   },
 ]
 
@@ -46,7 +46,7 @@ const ProjectsSection = () => {
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
                     <Link href={project.link}>
-                      <Image
+                    <Image
                         src={project.image}
                         alt=""
                         width={1000}

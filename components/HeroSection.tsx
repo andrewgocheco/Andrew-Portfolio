@@ -7,7 +7,6 @@ import Script from "next/script"
 import animateHeading from 'public/static/animateHeading'
 
 const HeroSection = () => {
-
   useEffect(() => {
     const heading = document.querySelector('h1.my-heading');
     animateHeading(heading);
