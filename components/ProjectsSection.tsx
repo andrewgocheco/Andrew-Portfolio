@@ -71,13 +71,15 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
+                    <Link href={project.link}>
                     <h1 className="text-4xl font-bold mb-6"><FadingText text={project.name}/></h1>
+                    </Link>
                     <p className="text-2xl leading-7 mb-4"><FadingText text={project.location}/></p>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     <FadingText text={project.description}/>
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.link} target="_blank">
+                      <Link href={project.link}>
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
