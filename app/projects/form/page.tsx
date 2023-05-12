@@ -1,5 +1,6 @@
 import PageHeader from "@/components/PageHeader"
 import ProjectDescription from "@/components/ProjectDescription"
+import ProjectImages1 from "@/components/ProjectImages1"
 
 export default function Home() {
     return (
@@ -28,6 +29,11 @@ export default function Home() {
         header="Mobile Accessibility"
         text="The team also recognized that the progress bar located at the top of the page was not mobile-friendly. The current design had a circle for each of the sections lined up horizontally along a progress line. This design functioned well on large screens, such as desktops, but was difficult to use on mobile screens due to their smaller screen width."
         text2="To allow mobile users to keep track of their progress, the team took inspiration from the Ontario Design System. The system recommended using a text label at the top of the page that displayed the step the user was currently on and the total number of steps. This solution allowed users on mobile devices to keep track of their progress."
+        />
+        <ProjectImages1 
+        header="Ontario Design System"
+        text="Mobile-friendly step indicator sample"
+        image1="/Step.png"
         />
       </main>
     )

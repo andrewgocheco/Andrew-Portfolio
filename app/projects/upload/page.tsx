@@ -1,5 +1,6 @@
 import PageHeader from "@/components/PageHeader"
 import ProjectDescription from "@/components/ProjectDescription"
+import ProjectImages1 from "@/components/ProjectImages1"
 
 export default function Home() {
     return (
@@ -18,6 +19,11 @@ export default function Home() {
         header="Making Uploading Easier"
         text="To make it easier for users to understand how to upload a document to the site, the tab shaped button was changed to a square button that matches the Ontario Design System. This matches other Ontario Government websites, creating consistency across Ontario Government websites. The order of the upload button and document table were also rearranged. The table is shown first to allow users to see what documents they have already uploaded before they upload any new documents."
         text2=""
+        />
+        <ProjectImages1 
+        header="Ontario Design System"
+        text="Sample Button"
+        image1="/Button.png"
         />
         <ProjectDescription 
         header="Giving More Feedback"
