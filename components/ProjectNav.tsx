@@ -16,7 +16,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Return Home",
-    sectionName: "projects",
+    sectionName: "home",
   },
 ]
 
@@ -71,7 +71,8 @@ export default function Navbar() {
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
-                    href={`/#${item.sectionName}`}
+                    href="/"
+                    key=""
                     className={
                       "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }

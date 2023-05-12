@@ -2,23 +2,27 @@ import React from "react"
 import FadingText from "./FadingText";
 import Image from "next/image";
 
-interface ProjectImages2SProps {
+interface ProjectImages4Props {
   header: string;
   text: string;
   text2: string;
   text3: string;
   text4: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  image4: string;
 }
 
-const ProjectImagesS2: React.FC<ProjectImages2SProps> = ({ header, text, text2, text3, text4 }) => {
+const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, text3, text4, image1, image2, image3, image4 }) => {
   return (
-    <section id="SustainabiteDescription">
+    <section id="ProjectDescription">
       <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-1 md:flex-row md:space-x-4 md:text-left my-10 py-16 sm:py-32 md:py-48">
         <div className="md:w-3/5" id="Images">
           <h2 className="text-3xl font-bold smd:text-xl font-Satoshi pb-10"><FadingText text={header} /></h2>
           <div className="pb-10 mb-10">
             <Image
-              src="/Sustainabite/landing.png"
+              src={image1}
               alt=""
               width={900}
               height={900}
@@ -33,7 +37,7 @@ const ProjectImagesS2: React.FC<ProjectImages2SProps> = ({ header, text, text2, 
           <p className="text-xl mt-4 mb-6 smd:text-xl"></p>
           <div className="pb-8">
             <Image
-              src="/Sustainabite/ResultsPage.png"
+              src={image2}
               alt=""
               width={900}
               height={900}
@@ -48,7 +52,7 @@ const ProjectImagesS2: React.FC<ProjectImages2SProps> = ({ header, text, text2, 
           <p className="text-xl mt-4 mb-6 smd:text-xl"></p>
           <div className="pb-8">
             <Image
-              src="/Sustainabite/RecipePage.png"
+              src={image3}
               alt=""
               width={900}
               height={900}
@@ -63,7 +67,7 @@ const ProjectImagesS2: React.FC<ProjectImages2SProps> = ({ header, text, text2, 
           <p className="text-xl mt-4 mb-6 smd:text-xl"></p>
           <div className="pb-8">
             <Image
-              src="/Sustainabite/PhonePage.png"
+              src={image4}
               alt=""
               width={900}
               height={900}
@@ -81,4 +85,4 @@ const ProjectImagesS2: React.FC<ProjectImages2SProps> = ({ header, text, text2, 
   )
 }
 
-export default ProjectImagesS2
+export default ProjectImages4

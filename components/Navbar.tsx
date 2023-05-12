@@ -7,6 +7,7 @@ import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 import Image from "next/image"
+import { useMediaQuery } from "@mui/material"
 
 interface NavItem {
   label: string
@@ -19,8 +20,8 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "home",
   },
   {
-    label: "About",
-    page: "about",
+    label: "Skills",
+    page: "skills",
   },
   {
     label: "Projects",
@@ -33,6 +34,7 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+  const isSmallScreen = useMediaQuery('(max-width: 768px)');
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-darkblack dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
@@ -76,6 +78,9 @@ export default function Navbar() {
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-Satoshi">
               {NAV_ITEMS.map((item, idx) => {
+                const offset = isSmallScreen ? -200 : -500; // Set the offset based on screen size
+                const duration = isSmallScreen ? 500 : 500; // Set the duration based on screen size
+
                 return (
                   <ScrollLink
                     key={idx}
@@ -86,8 +91,9 @@ export default function Navbar() {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-100}
-                    duration={500}
+                    offset={offset}
+                    
+                    duration={duration}
                     onClick={() => setNavbar(!navbar)
                     }
                   >

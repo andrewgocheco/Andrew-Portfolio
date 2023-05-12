@@ -8,6 +8,7 @@ export default function Head() {
       <meta property="og:image" content="/public/logo-sq.png" />
       <meta property="og:url" content="https://www.andrewgocheco.com" />
       <link rel="icon" href="/public/logo-sq.png"></link>
+      <link rel="shortcut icon" href="/public/logo-sq.png" />
     </>
   )
 }

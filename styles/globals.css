@@ -133,5 +133,14 @@
          font-style: italic;
   }
    
+  .fancy:hover {
+     opacity: 1 !important;
+     transition: opacity 0.2s ease-in-out;
+   }
+   
+   .fancy:hover ~ .fancy {
+     opacity: 0.2 !important;
+     transition: opacity 0.2s ease-in-out;
+   }
    
   

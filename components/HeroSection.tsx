@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h1 className="text-5xl font-bold md:text-7xl font-Satoshi my-heading" data-value="ANDREW GOCHECO">ANDREW GOCHECO</h1>
           <p className="text-3xl mt-4 mb-2 smd:text-2xl">
             <span className="font-Satoshi animate-fadeIn animation-delay-1">
-            / 'ændru /
+            / ændru /
             </span>
           </p>
           <p className="text-lg mt-4 mb-6 md:text-3xl font-Satoshi animate-fadeIn animation-delay-2">
@@ -37,7 +37,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce opacity-20" />
+          <HiArrowDown size={35} className="animate-bounce opacity-20 mx-auto" />
         </Link>
           </div>
         </div>
