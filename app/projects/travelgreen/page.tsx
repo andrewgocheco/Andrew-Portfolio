@@ -23,8 +23,8 @@ export default function Home() {
         text2=""
         />
         <ProjectImages1 
-        header="Demo"
-        text="Project Demo"
+        header="Model"
+        text="Project Model"
         image1="/TGFinal.png"
         />
         <ProjectDescription 
