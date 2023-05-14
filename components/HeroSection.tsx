@@ -15,9 +15,9 @@ const HeroSection = () => {
   return (
     <section id="home">
       <Script defer src="/static/Random.js"></Script>
-      <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-2 md:flex-row md:space-x-4 md:text-left h-screen my-10 py-16 sm:py-32 md:py-48">
+      <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-2 md:flex-row md:space-x-4 md:text-left h-screen my-10 py-16 sm:py-32 md:py-52">
         <div className="md:w-3/5" id="name">
-          <h1 className="text-5xl font-bold md:text-6xl font-Satoshi my-heading" data-value="ANDREW GOCHECO">ANDREW GOCHECO</h1>
+          <h1 className="text-5xl font-bold md:text-7xl font-Satoshi my-heading" data-value="ANDREW GOCHECO">ANDREW GOCHECO</h1>
           <p className="text-3xl mt-4 mb-2 smd:text-2xl">
             <span className="font-Satoshi animate-fadeIn animation-delay-1">
             / ændru /
