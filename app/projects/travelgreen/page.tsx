@@ -22,11 +22,6 @@ export default function Home() {
         text="We wanted to create a website that would allow users to visualize their carbon footprint. The user could input their travel distance and the number of travelers, and the website would return the estimated carbon emissions of the trip for different methods of transportation. This would allow the user to see the difference in carbon emissions for different methods of transportation."
         text2=""
         />
-        <ProjectDescription 
-        header="Giving More Feedback"
-        text="To increase feedback during the upload process, additional confirmations were added. When a document is selected, a remove sign appears below the name of the document. This allows the user to quickly change what document is to be uploaded. When the user confirms that the correct document has been chosen, a progress bar shows the progress of the upload. When the upload is complete, the document is added to the table and the new row is highlighted with a light yellow. The input fields also clear and close, allowing the user to repeat the process if they need to upload multiple documents."
-        text2=""
-        />
         <ProjectImages1 
         header="Demo"
         text="Project Demo"

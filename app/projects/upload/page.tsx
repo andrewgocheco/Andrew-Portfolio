@@ -8,16 +8,16 @@ export default function Home() {
         <PageHeader 
           title="Better Jobs Ontario"
           location="/ FASSB /"
-          description="Redesigning the upload page"
+          description="Redesigning the upload page."
           />
         <ProjectDescription
         header="The Challenge"
-        text="The upload page currently has two main issues. The first is that the input fields for the upload are difficult to find. Currently, to open the input fields, the user has to click a component that resembles a tab. No other form uses this tab component, making it difficult for the user to find the input fields."
-        text2="Secondly, there is limited feedback for the user once the document finishes uploading. During the upload, there is now indication that the upload has started or progressed. The selected file simply disappears when the upload is complete and is added to the table of uploaded files. This happens extremely quickly, making it unlikely for the user to realize that the file has been uploaded."
+        text="The upload page currently has two main issues. The first is that the input fields are difficult to find. Currently, to open the input fields, the user has to click a component that resembles a tab. No other form uses this tab component, making it difficult for the user to find the input fields."
+        text2="Secondly, there is limited feedback for the user during the upload process and after the document finishes uploading. During the upload, there is no indication that the upload has started or progressed. The selected file simply disappears when the upload is complete and is added to the table of uploaded files. This happens extremely quickly, making it unlikely for the user to realize that the file has been uploaded."
         />
         <ProjectDescription 
         header="Making Uploading Easier"
-        text="To make it easier for users to understand how to upload a document to the site, the tab shaped button was changed to a square button that matches the Ontario Design System. This matches other Ontario Government websites, creating consistency across Ontario Government websites. The order of the upload button and document table were also rearranged. The table is shown first to allow users to see what documents they have already uploaded before they upload any new documents."
+        text="To make it easier for users to understand how to upload a document to the site, the tab shaped button was changed to a square button that matches the Ontario Design System. This matches other Ontario Government websites, creating consistency across Ontario Government websites and allows the user to draw on past experiences. The order of the upload button and document table were also rearranged. The table is shown first to allow users to see what documents they have already uploaded before they upload any new documents."
         text2=""
         />
         <ProjectImages1 
