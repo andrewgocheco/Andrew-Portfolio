@@ -78,7 +78,7 @@ export default function Navbar() {
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-Satoshi">
               {NAV_ITEMS.map((item, idx) => {
-                const offset = isSmallScreen ? -200 : -500; // Set the offset based on screen size
+                const offset = isSmallScreen ? -150 : -500; // Set the offset based on screen size
                 const duration = isSmallScreen ? 500 : 500; // Set the duration based on screen size
 
                 return (
