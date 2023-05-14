@@ -8,7 +8,7 @@ export default function Home() {
         <PageHeader 
           title="Better Jobs Ontario"
           location="/ FASSB /"
-          description="Redesigning the form page"
+          description="Redesigning the form page."
           />
         <ProjectDescription
         header="The Challenge"
@@ -17,13 +17,13 @@ export default function Home() {
         />
         <ProjectDescription 
         header="Shortening Descriptions"
-        text="After looking through the longest page, the team realized that the descriptions after each question contributed a large amount to the length of the page. Therefore, it was important to find a way to keep the description for those who wanted clarification for each question."
-        text2="To solve this, the team decided to implement a Learn More button. Users could click the button to show the description if they need clarification. For users who do not need to read a description to answer a question, they can access the input fields faster, saving them time and reducing scrolling fatigue."
+        text="After looking through the longest page, the team realized that the descriptions after each question contributed a large amount to the length of the page. Therefore, it was important to find a way to keep the descriptions for those who wanted clarification for each question but also limit the space they take up."
+        text2='To solve this, the team decided to implement a "Learn More" button. Users could click the button to show the description if they needed clarification. For users who do not need to read a description to answer a question, they can access the input fields faster, saving them time and reducing scrolling fatigue.'
         />
         <ProjectDescription 
         header="Reorganizing the Form"
-        text="While the paper form was able to condense the longest section into one page using a table, the online version of the form could not use the same table due to the Acessibility for Ontarians with Disabilities Act. The table format is not screen reader friendly."
-        text2="Instead, team decided to reorganize the online form into 7 sections instead of 5. By grouping similar questions together and creating separate pages, the largest section was broken down into smaller, digestible sections. The user could also save after completing each smaller section, allowing them to pick up where they left off after a break. Smaller sections allow the user to complete a section before leaving, making it easier for them to remember where they left off."
+        text="While the paper form was able to condense the longest section into one page using a table, the online version of the form could not use the same table due to the Accessibility for Ontarians with Disabilities Act. The table format is not screen reader friendly."
+        text2="Instead, the team decided to reorganize the online form into 7 sections instead of 5. By grouping similar questions together and creating separate pages, the largest section was broken down into smaller, more digestible sections. The user could also save after completing each smaller section, allowing them to pick up where they left off after a break. Smaller sections allow the user to complete a section before leaving, making it easier for them to remember where they left off."
         /> 
         <ProjectDescription 
         header="Mobile Accessibility"

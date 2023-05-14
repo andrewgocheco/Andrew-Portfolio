@@ -10,11 +10,11 @@ export default function Home() {
         <PageHeader 
           title="Sustain-a-Bite"
           location="/ HackPrinceton /"
-          description="Find the best recipes for the deals near you"
+          description="Find the best recipes for the deals near you."
           />
         <ProjectDescription
         header="The Challenge"
-        text="American philosopher Ralph Waldo Emerson once claimed that, 'the first wealth is health.' A person's health is the key to the rest of their life. So why has it become more and more difficult for those in poverty to access healthy food? With rising grocery prices, it has become a struggle to find affordable, healthy meals."
+        text="American philosopher Ralph Waldo Emerson once claimed that the first wealth is health. A person's health is the key to the rest of their life. So why has it become more and more difficult for those in poverty to access healthy food? With rising grocery prices, it has become a struggle to find affordable, healthy meals."
         text2="Note: This project had a time limit of 24 hours."
         />
         <ProjectDescription 
@@ -43,7 +43,7 @@ export default function Home() {
         />
         <ProjectDescription
         header="Initial Revisions"
-        text="1. Simplify the landing page to ensure that users are not confused about the number of elements on the page. This can be done by separating the input fields and the list of recipes into separate pages."
+        text="1. Simplify the landing page to ensure that users are not confused by the large number of elements on the page. This can be done by separating the input fields and the list of recipes into separate pages."
         text2="2. Since our focus is on healthy recipes, the nutrition facts should appear before the list of ingredients in the expanded recipe page to draw the user's attention to the nutrition facts."
         />
         <ProjectImages4
