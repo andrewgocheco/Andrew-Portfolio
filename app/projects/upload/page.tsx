@@ -6,9 +6,9 @@ export default function Home() {
     return (
       <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
         <PageHeader 
-          title="Better Jobs Ontario"
+          title="Ontario Upload Page"
           location="/ FASSB /"
-          description="Redesigning the upload page."
+          description="Redesigning an upload page."
           />
         <ProjectDescription
         header="The Challenge"

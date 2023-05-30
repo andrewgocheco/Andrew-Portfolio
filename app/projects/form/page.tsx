@@ -6,13 +6,13 @@ export default function Home() {
     return (
       <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
         <PageHeader 
-          title="Better Jobs Ontario"
+          title="Ontario Form Page"
           location="/ FASSB /"
-          description="Redesigning the form page."
+          description="Redesigning an online form"
           />
         <ProjectDescription
         header="The Challenge"
-        text="During the pandemic, the Better Jobs Ontario form was moved from a paper form to an online form on the Better Jobs Ontario portal. The online form mimicked the paper form by following the same structure. The paper and online form was broken up into 5 main sections. However, one of the sections was much longer than the others. As a result, one of the pages was extremely long and was fatiguing for users to complete."
+        text="During the pandemic, the form was moved from a paper form to an online form on an Ontario portal. The online form mimicked the paper form by following the same structure. The paper and online form was broken up into 5 main sections. However, one of the sections was much longer than the others. As a result, one of the pages was extremely long and was fatiguing for users to complete."
         text2=""
         />
         <ProjectDescription 

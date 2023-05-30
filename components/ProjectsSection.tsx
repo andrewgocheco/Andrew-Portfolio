@@ -14,17 +14,17 @@ const projects = [
     link: "../projects/sustainabite",
   },
   {
-    name: "Better Jobs Ontario",
+    name: "Ontario Upload Page",
     description:
-      "Redesigning the upload page",
+      "Redesigning an upload page",
     location: "/ FASSB /",
     image: "/Ontario.png",
     link: "../projects/upload",
   },
   {
-    name: "Better Jobs Ontario",
+    name: "Ontario Form Page",
     description:
-      "Redesigning the form page",
+      "Redesigning an online form",
     location: "/ FASSB /",
     image: "/Ontario.png",
     link: "../projects/form",
