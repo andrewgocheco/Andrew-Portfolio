@@ -47,7 +47,7 @@ export default function Home() {
         text2="2. Since our focus is on healthy recipes, the nutrition facts should appear before the list of ingredients in the expanded recipe page to draw the user's attention to the nutrition facts."
         />
         <ProjectImages4
-        header="Final Design"
+        header="Hackathon Design"
         text="Landing Page"
         text2="Recipe List Page"
         text3="Recipe Page"
@@ -59,9 +59,21 @@ export default function Home() {
         />
 
         <ProjectDescription
-        header="Next Steps"
+        header="Next Steps after the Hackathon"
         text="In the future, we want to implement a user registration system to allow users to save recipes and add dietary restriction filters. This helps them save time and allows them to receive more personalized recipes."
         text2="We also want to add a deal rating system to give the user a numerical value for the quality of the deal they are receiving. This ensures that we are maximizing our users' money."
+        />
+
+        <ProjectImages4
+        header="Post-Hackathon Design"
+        text="Landing Page"
+        text2="Recipe List Page"
+        text3="Recipe Page"
+        text4="Text Recipe Page"
+        image1="/s2 Landing Page.png"
+        image2="/s2 Results Page.png"
+        image3="/s2 Recipe Page.png"
+        image4="/s2 Text Page.png"
         />
 
         <LinkButton 
