@@ -70,10 +70,10 @@ export default function Home() {
         text2="Recipe List Page"
         text3="Recipe Page"
         text4="Text Recipe Page"
-        image1="/s2 Landing Page.png"
-        image2="/s2 Results Page.png"
-        image3="/s2 Recipe Page.png"
-        image4="/s2 Text Page.png"
+        image1="/s2LandingPage.png"
+        image2="/s2ResultsPage.png"
+        image3="/s2RecipePage.png"
+        image4="/s2TextPage.png"
         />
 
         <LinkButton 
