@@ -15,7 +15,7 @@ export default function Home() {
         <ProjectDescription
         header="The Challenge"
         text="The inspiration came from the lack of awareness that our team members had about transportation and carbon emissions. We knew that cars were unsustainable, and that there are many different eco-friendly modes of transportation, but saying something was unsustainable was vague. How much better is public transportation or biking as opposed to driving? How much carbon do we actually emit by traveling a certain distance with a certain number of people? We didn't have answers to these questions and wanted to see the impact our travel has on the environment."
-        text2="Note: This project had a time limit of 24 hours."
+        text2="Timeline: 24 hours"
         />
         <ProjectDescription 
         header="The Solution"

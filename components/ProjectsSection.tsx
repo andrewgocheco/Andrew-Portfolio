@@ -58,7 +58,7 @@ const ProjectsSection = () => {
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
-                <div className="flex flex-col  md:flex-row md:space-x-12">
+                <div className="flex flex-col md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
                     <Link href={project.link}>
                       <Image

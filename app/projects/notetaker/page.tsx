@@ -15,7 +15,7 @@ export default function Home() {
         <ProjectDescription
         header="The Challenge"
         text="Since the start of the pandemic, many schools have adopted a virtual classroom format.Many lectures are recorded for students to watch, however, students can become fatigued by the large number of lectures they watch each day. Students cannot completely ignore lectures, but should not have to spend hours watching them."
-        text2="Note: This project had a time limit of 24 hours."
+        text2="Timeline: 24 hours"
         />
         <ProjectDescription 
         header="The Question"

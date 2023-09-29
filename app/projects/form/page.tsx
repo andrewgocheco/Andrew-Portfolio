@@ -13,7 +13,7 @@ export default function Home() {
         <ProjectDescription
         header="The Challenge"
         text="During the pandemic, the form was moved from a paper form to an online form on an Ontario portal. The online form mimicked the paper form by following the same structure. The paper and online form was broken up into 5 main sections. However, one of the sections was much longer than the others. As a result, one of the pages was extremely long and was fatiguing for users to complete."
-        text2=""
+        text2="Timeline: 1 Week"
         />
         <ProjectDescription 
         header="Shortening Descriptions"

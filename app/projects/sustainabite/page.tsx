@@ -15,7 +15,7 @@ export default function Home() {
         <ProjectDescription
         header="The Challenge"
         text="American philosopher Ralph Waldo Emerson once claimed that the first wealth is health. A person's health is the key to the rest of their life. So why has it become more and more difficult for those in poverty to access healthy food? With rising grocery prices, it has become a struggle to find affordable, healthy meals."
-        text2="Note: This project had a time limit of 24 hours."
+        text2="Timeline: 24 Hours"
         />
         <ProjectDescription 
         header="The Question"
