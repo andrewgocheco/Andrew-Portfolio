@@ -4,6 +4,10 @@ import Image from "next/image";
 
 interface ProjectImages4Props {
   header: string;
+  label: string;
+  label2: string;
+  label3: string;
+  label4: string;
   text: string;
   text2: string;
   text3: string;
@@ -14,7 +18,7 @@ interface ProjectImages4Props {
   image4: string;
 }
 
-const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, text3, text4, image1, image2, image3, image4 }) => {
+const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, label, label2, label3, label4, text, text2, text3, text4, image1, image2, image3, image4 }) => {
   return (
     <section id="ProjectDescription">
       <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-1 md:flex-row md:space-x-4 md:text-left my-10 py-16 sm:py-32 md:py-48">
@@ -28,6 +32,11 @@ const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+             <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text} />
@@ -43,6 +52,11 @@ const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+             <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label2} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text2} />
@@ -58,6 +72,11 @@ const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+             <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label3} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text3} />
@@ -73,6 +92,11 @@ const ProjectImages4: React.FC<ProjectImages4Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+             <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label4} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text4} />

@@ -2,13 +2,14 @@ import React from "react"
 import FadingText from "./FadingText";
 import Image from "next/image";
 
-interface ProjectImages1Props {
+interface ProjectImages12Props {
   header: string;
   text: string;
+  text2: string;
   image1: string;
 }
 
-const ProjectImages1: React.FC<ProjectImages1Props> = ({ header, text, image1 }) => {
+const ProjectImages12: React.FC<ProjectImages12Props> = ({ header, text, text2, image1 }) => {
   return (
     <section id="ProjectImages1">
       <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-1 md:flex-row md:space-x-4 md:text-left my-10 py-16 sm:py-32 md:py-48">
@@ -22,9 +23,14 @@ const ProjectImages1: React.FC<ProjectImages1Props> = ({ header, text, image1 })
               height={900}
               className="rounded-xl shadow-xl"
             />
-            <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+            <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text} />
+              </span>
+            </p>
+            <p className="text-2xl mt-4 mb-6 smd:text-xl">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={text2} />
               </span>
             </p>
           </div>
@@ -34,4 +40,4 @@ const ProjectImages1: React.FC<ProjectImages1Props> = ({ header, text, image1 })
   )
 }
 
-export default ProjectImages1
+export default ProjectImages12

@@ -4,15 +4,21 @@ import Image from "next/image";
 
 interface ProjectImages3Props {
   header: string;
+  label: string;
+  label2: string;
+  label3: string;
   text: string;
+  text11: string;
   text2: string;
+  text21: string;
   text3: string;
+  text31: string;
   image1: string;
   image2: string;
   image3: string;
 }
 
-const ProjectImages3: React.FC<ProjectImages3Props> = ({ header, text, text2, text3, image1, image2, image3 }) => {
+const ProjectImages3: React.FC<ProjectImages3Props> = ({ header, label, label2, label3, text, text11, text2, text21, text3, text31, image1, image2, image3 }) => {
   return (
     <section id="ProjectDescription">
       <div className="flex flex-row text-center items-center justify-center animate-fadeIn animation-delay-1 md:flex-row md:space-x-4 md:text-left my-10 py-16 sm:py-32 md:py-48">
@@ -26,9 +32,19 @@ const ProjectImages3: React.FC<ProjectImages3Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+            <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text} />
+              </span>
+            </p>
+            <p className="text-2xl mt-4 mb-6 smd:text-xl">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={text11} />
               </span>
             </p>
           </div>
@@ -41,9 +57,19 @@ const ProjectImages3: React.FC<ProjectImages3Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+            <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label2} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text2} />
+              </span>
+            </p>
+            <p className="text-2xl mt-4 mb-6 smd:text-xl">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={text21} />
               </span>
             </p>
           </div>
@@ -56,9 +82,19 @@ const ProjectImages3: React.FC<ProjectImages3Props> = ({ header, text, text2, te
               height={900}
               className="rounded-xl shadow-xl"
             />
+            <p className="text-2xl mt-4 mb-6 smd:text-xl font-bold">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={label3} />
+              </span>
+            </p>
             <p className="text-2xl mt-4 mb-6 smd:text-xl">
               <span className="font-Satoshi animate-fadeIn animation-delay-1">
                 <FadingText text={text3} />
+              </span>
+            </p>
+            <p className="text-2xl mt-4 mb-6 smd:text-xl">
+              <span className="font-Satoshi animate-fadeIn animation-delay-1">
+                <FadingText text={text31} />
               </span>
             </p>
           </div>

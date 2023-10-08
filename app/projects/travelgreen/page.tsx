@@ -3,6 +3,7 @@ import ProjectDescription from "@/components/ProjectDescription"
 import ProjectImages1 from "@/components/ProjectImages1"
 import ProjectImages3 from "@/components/ProjectImages3"
 import LinkButton from "@/components/LinkButton"
+import ProjectInfo from "@/components/ProjectInfo"
 
 export default function Home() {
     return (
@@ -12,10 +13,20 @@ export default function Home() {
           location="/ TOHacks /"
           description="How much carbon are you releasing?"
           />
+
+        <ProjectInfo
+        timeline="24"
+        timelineUnit="Hours"
+        teamsize="4"
+        teamsizeUnit="Members"
+        role="Designer/Dev"
+        roleDesc="Role"
+        />
+
         <ProjectDescription
         header="The Challenge"
         text="The inspiration came from the lack of awareness that our team members had about transportation and carbon emissions. We knew that cars were unsustainable, and that there are many different eco-friendly modes of transportation, but saying something was unsustainable was vague. How much better is public transportation or biking as opposed to driving? How much carbon do we actually emit by traveling a certain distance with a certain number of people? We didn't have answers to these questions and wanted to see the impact our travel has on the environment."
-        text2="Timeline: 24 hours"
+        text2=""
         />
         <ProjectDescription 
         header="The Solution"
@@ -34,9 +45,15 @@ export default function Home() {
         />
         <ProjectImages3 
         header="Sketches for Future"
-        text="Landing Page"
-        text2="Profile Page"
-        text3="Goal Setting Page"
+        label="Landing Page"
+        label2="Profile Page"
+        label3="Goal Setting Page"
+        text=""
+        text11=""
+        text2=""
+        text21=""
+        text3=""
+        text31=""
         image1="/LandingTG.jpg"
         image2="/FutureProfile.jpg"
         image3="/FutureGoal.jpg"
